@@ -27,8 +27,8 @@ glove_dict = {
 }
 
 glove_dict['50'] = api.load(glove_dict['50'])
-glove_dict['100'] = api.load(glove_dict['100'])
-glove_dict['200'] = api.load(glove_dict['200'])
+# glove_dict['100'] = api.load(glove_dict['100'])
+# glove_dict['200'] = api.load(glove_dict['200'])
 
 def create_vocab(sentences: list, embedding_dim: int):
     glove = glove_dict[str(embedding_dim)]
