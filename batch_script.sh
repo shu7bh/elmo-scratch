@@ -6,4 +6,4 @@
 #SBATCH --mail-type=END
 #SBATCH -w gnode050
 
-python task.py
+python all.py
