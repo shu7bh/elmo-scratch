@@ -159,3 +159,56 @@ Test loss: 0.5201968483063353
 **Test loss**
 
 0.5559738839373869
+
+
+## Bonus CharCNN
+
+#### Delta parameter: Learning
+
+**Confusion Matrix**
+
+    [
+        [1307  235  165  193]
+        [ 117 1630   40  113]
+        [ 150  112 1202  436]
+        [ 139  175  416 1170]
+    ]
+
+**Classification Report**
+
+                    precision    recall  f1-score   support
+
+            0     0.7630    0.6879    0.7235      1900
+            1     0.7574    0.8579    0.8045      1900
+            2     0.6594    0.6326    0.6457      1900
+            3     0.6119    0.6158    0.6139      1900
+
+        accuracy                      0.6986      7600
+    macro avg     0.6979    0.6986    0.6969      7600
+    weighted avg  0.6979    0.6986    0.6969      7600
+
+**Test loss**
+
+0.7480
+
+
+CharCNN with 2 different LSTMs
+ignoring padding in loss
+
+100%|██████████| 238/238 [00:01<00:00, 213.47it/s]
+Test Loss:  0.5309
+Classification Report:               precision    recall  f1-score   support
+
+           0     0.8253    0.8253    0.8253      1900
+           1     0.8318    0.9289    0.8777      1900
+           2     0.7963    0.6953    0.7423      1900
+           3     0.7275    0.7347    0.7311      1900
+
+    accuracy                         0.7961      7600
+   macro avg     0.7952    0.7961    0.7941      7600
+weighted avg     0.7952    0.7961    0.7941      7600
+
+Confusion Matrix: [[1568  140   94   98]
+ [  64 1765   23   48]
+ [ 127   75 1321  377]
+ [ 141  142  221 1396]]
