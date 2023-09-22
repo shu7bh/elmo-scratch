@@ -139,6 +139,9 @@ Here too, I used Early Stopping with a patience of `3` and a delta of `0.001`.
 **Test Loss**
 > 0.2954
 
+**Micro F1 Score**
+> 0.8929
+
 **Classification Report**
 
                 precision    recall  f1-score   support
@@ -167,6 +170,9 @@ As we can see, the model is performing well on the downstream task. The model is
 
 **Test Loss**
 > 0.3215
+
+**Micro F1 Score**
+> 0.8863
 
 **Classification Report**
 
@@ -197,6 +203,9 @@ As we can see, the same trend is continued here. The model performs a little bit
 **Test Loss**
 > 0.2973
 
+**Micro F1 Score**
+> 0.8957
+
 **Classification Report**
 
                 precision    recall  f1-score   support
@@ -226,6 +235,9 @@ Here, the model is performing better than the trained delta model. `1` is for th
 **Test Loss**
 > 0.3090
 
+**Micro F1 Score**
+> 0.8883
+
 **Classification Report**
 
                 precision    recall  f1-score   support
@@ -254,6 +266,9 @@ Here, we are just using the final layer of the ELMo LSTM for prediction. As we c
 
 **Test Loss**
 > 0.2945
+
+**Micro F1 Score**
+> 0.8971
 
 **Classification Report**
 
@@ -319,6 +334,9 @@ Apart from that, it is nearly the same as the normal ELMo model.
 
 **Test Loss**
 > 0.5309
+
+**Micro F1 Score**
+> 0.7961
 
 **Classification Report**
 
